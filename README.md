@@ -12,19 +12,19 @@ In the simulation in this repo, the cars have 5 trackers on the front of the car
 
 ### Car Hitbox
 The car being displayed below is part of the free asset "Standard Assets" from the Unity Store. The Unity team designed these to allow developers to easily drag and drop a realistic car with manual controls and realistic physics. <br><br>
-![Hit Box of Car](Images/HitBox.png)
+![Hit Box of Car](HitBox.png)
 
 ### Error Tracking
 In order to tell where the car is, we need to give the car something to interact with. I have chosen to use an invisible rectangle that spands the length of the track. This rectangle has a Box Collider and will be the Trigger under the settings for its Box Collider. We are using it as a Trigger in order to allow the car to pass through it while still sending signals when another box collider runs into it. <br><br>
-![Center Track Barrier](Images/CenterTrack.png)
+![Center Track Barrier](CenterTrack.png)
 
 ### Asthetic Design
 The track design we went with for Racetrack One is a European Forumla 1 style with sharp turns and varrying turn severity. We chose this design in order to test the capability of the AI to see if it is able to make quick and severe decisions. <br><br>
-![European Racetrack](Images/EuropeanRacetrack.png)
+![European Racetrack](EuropeanRacetrack.png)
 
 ### Trackers 
 To actually know where the car is relative to the track, we are using box colliders which will tell the AI how severe of an error the car has. The car below has 5 trackers that line the front of the car. It may look like one line but that is because to get the best error we need to have overlapping trackers inorder to tell if the car is between two trackers. This is done for error accuracy as we will discuss below. <br><br>
-![Trackers](Images/Capture.PNG)
+![Trackers](Capture.PNG)
 
 ## PID (Proportional-Integral-Derivative) Controller
 
@@ -79,7 +79,7 @@ We will then move to tuning I or the variable I constant. We want to increase th
 If you cannot find the tuning that you desire, slow the speed of the car down and then try it again! Oscillation patterns are more common at higher speeds.
 
 ## Interface
-![View of Car](Images/Interface.png)
+![View of Car](Interface.png)
 toucan-icon
 Over 100 word limit
 We’re working to increase this limit and keep load times short. In the meantime, try highlighting up to 100 words at one time to translate.
