@@ -1,5 +1,5 @@
 ## End Result!
-![Demo Vid](Images/DemoVid.gif)
+![Demo Vid](DemoVid.gif)
 
 ## Want to see it live?
 [Demo Live](demo.html)
