@@ -80,7 +80,3 @@ If you cannot find the tuning that you desire, slow the speed of the car down an
 
 ## Interface
 ![View of Car](Interface.png)
-toucan-icon
-Over 100 word limit
-We’re working to increase this limit and keep load times short. In the meantime, try highlighting up to 100 words at one time to translate.
-Don’t show again
