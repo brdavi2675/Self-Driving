@@ -80,3 +80,7 @@ If you cannot find the tuning that you desire, slow the speed of the car down an
 
 ## Interface
 ![View of Car](Interface.png)
+
+## Future Studies
+
+Currently two forms of active learning are being developed to be deployed on a real raspberry pi augmented RC car. One based on simple vector inputs of error into a 3 layer, 100-neuron model. The second model is a ~1 million neuron model using a live camera feed to control the car's movement.
