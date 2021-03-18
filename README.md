@@ -1,8 +1,6 @@
-## End Result!
-![Demo Vid](DemoVid.gif)
 
-## Want to see it live?
-[Demo Live](demo.html)
+# Initial Results
+
 ## Error? What's an Error?
 
 One concept you will hear me talk about a lot in this tutorial is the idea of error. Error is going to refer to how far left or right the car is relative to the middle of the track.
